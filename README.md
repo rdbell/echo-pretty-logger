@@ -32,7 +32,7 @@ func main() {
     e := echo.New()
 
     // Add PrettyLogger middleware
-    e.Use(prettyLogger.Logger)
+    e.Use(prettylogger.Logger)
 
     // Define your routes
     e.GET("/", func(c echo.Context) error {
