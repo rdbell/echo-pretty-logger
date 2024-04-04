@@ -45,6 +45,7 @@ func main() {
 ```
 
 ## Demo
+
 To demo PrettyLogger's capabilities, navigate to the [`example`](/example) folder within this repository and run `go run main.go` in your terminal. This command will launch an Echo server demonstrating the middleware's color-coded and formatted logging output.
 
 ## Configuration
